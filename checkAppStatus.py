@@ -7,7 +7,7 @@ driver = webdriver.PhantomJS()
 driver.get("http://www.google.com/appsstatus#hl=en&v=status")
 time.sleep(1)
 
-
+# Dictionary referencing each service's row position within the table displaying their current status
 app_services = {
     'Gmail' : 2,
     'Calendar' : 3,
